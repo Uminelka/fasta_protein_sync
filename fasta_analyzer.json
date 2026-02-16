@@ -1,0 +1,812 @@
+{
+    "execution_time_seconds": 0.03160357475280762,
+    "total_statistics": {
+        "hydrophobic": 30873,
+        "hydrophilic_neutral": 14975,
+        "hydrophilic_positive": 8432,
+        "hydrophilic_negative": 7207,
+        "not_standart": 1
+    },
+    "sequences": [
+        {
+            "id": "tr|A0A087X296|A0A087X296_HUMAN",
+            "hydrophobic": 306,
+            "hydrophilic_neutral": 117,
+            "hydrophilic_positive": 71,
+            "hydrophilic_negative": 57,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A0A0MRF5|A0A0A0MRF5_HUMAN",
+            "hydrophobic": 121,
+            "hydrophilic_neutral": 52,
+            "hydrophilic_positive": 32,
+            "hydrophilic_negative": 29,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A0A0MSN4|A0A0A0MSN4_HUMAN",
+            "hydrophobic": 628,
+            "hydrophilic_neutral": 320,
+            "hydrophilic_positive": 153,
+            "hydrophilic_negative": 141,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A0B4J1S7|A0A0B4J1S7_HUMAN",
+            "hydrophobic": 342,
+            "hydrophilic_neutral": 252,
+            "hydrophilic_positive": 114,
+            "hydrophilic_negative": 99,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A0K0L4Y0|A0A0K0L4Y0_HUMAN",
+            "hydrophobic": 289,
+            "hydrophilic_neutral": 104,
+            "hydrophilic_positive": 61,
+            "hydrophilic_negative": 50,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A0K0L4Y8|A0A0K0L4Y8_HUMAN",
+            "hydrophobic": 290,
+            "hydrophilic_neutral": 104,
+            "hydrophilic_positive": 60,
+            "hydrophilic_negative": 50,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A0S2Z366|A0A0S2Z366_HUMAN",
+            "hydrophobic": 224,
+            "hydrophilic_neutral": 87,
+            "hydrophilic_positive": 60,
+            "hydrophilic_negative": 50,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A0S2Z3W3|A0A0S2Z3W3_HUMAN",
+            "hydrophobic": 274,
+            "hydrophilic_neutral": 138,
+            "hydrophilic_positive": 54,
+            "hydrophilic_negative": 63,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A0S2Z4Z8|A0A0S2Z4Z8_HUMAN",
+            "hydrophobic": 252,
+            "hydrophilic_neutral": 144,
+            "hydrophilic_positive": 81,
+            "hydrophilic_negative": 63,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A0U1RQF0|A0A0U1RQF0_HUMAN",
+            "hydrophobic": 1390,
+            "hydrophilic_neutral": 560,
+            "hydrophilic_positive": 295,
+            "hydrophilic_negative": 264,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A0U1WL47|A0A0U1WL47_HUMAN",
+            "hydrophobic": 290,
+            "hydrophilic_neutral": 103,
+            "hydrophilic_positive": 61,
+            "hydrophilic_negative": 50,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A140VJL2|A0A140VJL2_HUMAN",
+            "hydrophobic": 247,
+            "hydrophilic_neutral": 143,
+            "hydrophilic_positive": 65,
+            "hydrophilic_negative": 53,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A140VJL9|A0A140VJL9_HUMAN",
+            "hydrophobic": 191,
+            "hydrophilic_neutral": 57,
+            "hydrophilic_positive": 44,
+            "hydrophilic_negative": 38,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A140VK13|A0A140VK13_HUMAN",
+            "hydrophobic": 328,
+            "hydrophilic_neutral": 168,
+            "hydrophilic_positive": 92,
+            "hydrophilic_negative": 70,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A1B0GTB8|A0A1B0GTB8_HUMAN",
+            "hydrophobic": 317,
+            "hydrophilic_neutral": 162,
+            "hydrophilic_positive": 89,
+            "hydrophilic_negative": 67,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A0A1B0GTW7|CIROP_HUMAN",
+            "hydrophobic": 432,
+            "hydrophilic_neutral": 198,
+            "hydrophilic_positive": 96,
+            "hydrophilic_negative": 62,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A1B0GUA1|A0A1B0GUA1_HUMAN",
+            "hydrophobic": 298,
+            "hydrophilic_neutral": 107,
+            "hydrophilic_positive": 63,
+            "hydrophilic_negative": 53,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A1B0GUE3|A0A1B0GUE3_HUMAN",
+            "hydrophobic": 173,
+            "hydrophilic_neutral": 81,
+            "hydrophilic_positive": 39,
+            "hydrophilic_negative": 37,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A1B0GUG1|A0A1B0GUG1_HUMAN",
+            "hydrophobic": 196,
+            "hydrophilic_neutral": 88,
+            "hydrophilic_positive": 43,
+            "hydrophilic_negative": 39,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A1B0GUH5|A0A1B0GUH5_HUMAN",
+            "hydrophobic": 211,
+            "hydrophilic_neutral": 95,
+            "hydrophilic_positive": 46,
+            "hydrophilic_negative": 41,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A1B0GUW4|A0A1B0GUW4_HUMAN",
+            "hydrophobic": 191,
+            "hydrophilic_neutral": 90,
+            "hydrophilic_positive": 46,
+            "hydrophilic_negative": 40,
+            "not_standart": 1
+        },
+        {
+            "id": "tr|A0A1B0GV75|A0A1B0GV75_HUMAN",
+            "hydrophobic": 296,
+            "hydrophilic_neutral": 157,
+            "hydrophilic_positive": 84,
+            "hydrophilic_negative": 61,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A1B0GVF3|A0A1B0GVF3_HUMAN",
+            "hydrophobic": 332,
+            "hydrophilic_neutral": 172,
+            "hydrophilic_positive": 96,
+            "hydrophilic_negative": 70,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A1B0GW56|A0A1B0GW56_HUMAN",
+            "hydrophobic": 304,
+            "hydrophilic_neutral": 154,
+            "hydrophilic_positive": 65,
+            "hydrophilic_negative": 49,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A1B0GW77|A0A1B0GW77_HUMAN",
+            "hydrophobic": 316,
+            "hydrophilic_neutral": 117,
+            "hydrophilic_positive": 67,
+            "hydrophilic_negative": 54,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A1B0GWC0|A0A1B0GWC0_HUMAN",
+            "hydrophobic": 321,
+            "hydrophilic_neutral": 166,
+            "hydrophilic_positive": 93,
+            "hydrophilic_negative": 67,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A1B1RVA9|A0A1B1RVA9_HUMAN",
+            "hydrophobic": 231,
+            "hydrophilic_neutral": 118,
+            "hydrophilic_positive": 73,
+            "hydrophilic_negative": 53,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A2P9DU05|A0A2P9DU05_HUMAN",
+            "hydrophobic": 561,
+            "hydrophilic_neutral": 334,
+            "hydrophilic_positive": 247,
+            "hydrophilic_negative": 246,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A384MED8|A0A384MED8_HUMAN",
+            "hydrophobic": 256,
+            "hydrophilic_neutral": 139,
+            "hydrophilic_positive": 85,
+            "hydrophilic_negative": 81,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A384P5Q0|A0A384P5Q0_HUMAN",
+            "hydrophobic": 256,
+            "hydrophilic_neutral": 129,
+            "hydrophilic_positive": 81,
+            "hydrophilic_negative": 61,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A386NCS8|A0A386NCS8_HUMAN",
+            "hydrophobic": 171,
+            "hydrophilic_neutral": 102,
+            "hydrophilic_positive": 68,
+            "hydrophilic_negative": 62,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A3B3IRX2|A0A3B3IRX2_HUMAN",
+            "hydrophobic": 49,
+            "hydrophilic_neutral": 35,
+            "hydrophilic_positive": 25,
+            "hydrophilic_negative": 8,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A590UJC7|A0A590UJC7_HUMAN",
+            "hydrophobic": 398,
+            "hydrophilic_neutral": 174,
+            "hydrophilic_positive": 105,
+            "hydrophilic_negative": 83,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A5F9ZGX5|A0A5F9ZGX5_HUMAN",
+            "hydrophobic": 577,
+            "hydrophilic_neutral": 217,
+            "hydrophilic_positive": 143,
+            "hydrophilic_negative": 118,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A5F9ZHJ2|A0A5F9ZHJ2_HUMAN",
+            "hydrophobic": 588,
+            "hydrophilic_neutral": 217,
+            "hydrophilic_positive": 149,
+            "hydrophilic_negative": 118,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A5F9ZI29|A0A5F9ZI29_HUMAN",
+            "hydrophobic": 568,
+            "hydrophilic_neutral": 214,
+            "hydrophilic_positive": 141,
+            "hydrophilic_negative": 117,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A6G6A825|A0A6G6A825_HUMAN",
+            "hydrophobic": 203,
+            "hydrophilic_neutral": 126,
+            "hydrophilic_positive": 80,
+            "hydrophilic_negative": 66,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A6Q8PHB5|A0A6Q8PHB5_HUMAN",
+            "hydrophobic": 209,
+            "hydrophilic_neutral": 106,
+            "hydrophilic_positive": 65,
+            "hydrophilic_negative": 56,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A6Q8PHP0|A0A6Q8PHP0_HUMAN",
+            "hydrophobic": 259,
+            "hydrophilic_neutral": 142,
+            "hydrophilic_positive": 87,
+            "hydrophilic_negative": 81,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A7I2SVS4|A0A7I2SVS4_HUMAN",
+            "hydrophobic": 536,
+            "hydrophilic_neutral": 277,
+            "hydrophilic_positive": 154,
+            "hydrophilic_negative": 122,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A7I2V2E9|A0A7I2V2E9_HUMAN",
+            "hydrophobic": 382,
+            "hydrophilic_neutral": 205,
+            "hydrophilic_positive": 90,
+            "hydrophilic_negative": 94,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A7I2V3N4|A0A7I2V3N4_HUMAN",
+            "hydrophobic": 384,
+            "hydrophilic_neutral": 204,
+            "hydrophilic_positive": 90,
+            "hydrophilic_negative": 94,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A7I2V3X6|A0A7I2V3X6_HUMAN",
+            "hydrophobic": 391,
+            "hydrophilic_neutral": 207,
+            "hydrophilic_positive": 92,
+            "hydrophilic_negative": 96,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A7I2V4H0|A0A7I2V4H0_HUMAN",
+            "hydrophobic": 392,
+            "hydrophilic_neutral": 207,
+            "hydrophilic_positive": 92,
+            "hydrophilic_negative": 95,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A804HKW9|A0A804HKW9_HUMAN",
+            "hydrophobic": 600,
+            "hydrophilic_neutral": 286,
+            "hydrophilic_positive": 155,
+            "hydrophilic_negative": 122,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A8I5KZ76|A0A8I5KZ76_HUMAN",
+            "hydrophobic": 282,
+            "hydrophilic_neutral": 162,
+            "hydrophilic_positive": 99,
+            "hydrophilic_negative": 75,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A8I5QJL1|A0A8I5QJL1_HUMAN",
+            "hydrophobic": 261,
+            "hydrophilic_neutral": 151,
+            "hydrophilic_positive": 91,
+            "hydrophilic_negative": 69,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A8I5QJV9|A0A8I5QJV9_HUMAN",
+            "hydrophobic": 240,
+            "hydrophilic_neutral": 143,
+            "hydrophilic_positive": 85,
+            "hydrophilic_negative": 64,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A8S0M502|A0A8S0M502_HUMAN",
+            "hydrophobic": 394,
+            "hydrophilic_neutral": 218,
+            "hydrophilic_positive": 94,
+            "hydrophilic_negative": 99,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A8V8TPK6|A0A8V8TPK6_HUMAN",
+            "hydrophobic": 190,
+            "hydrophilic_neutral": 110,
+            "hydrophilic_positive": 70,
+            "hydrophilic_negative": 64,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0A8V8TQX2|A0A8V8TQX2_HUMAN",
+            "hydrophobic": 168,
+            "hydrophilic_neutral": 98,
+            "hydrophilic_positive": 61,
+            "hydrophilic_negative": 61,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0AAG2T947|A0AAG2T947_HUMAN",
+            "hydrophobic": 201,
+            "hydrophilic_neutral": 81,
+            "hydrophilic_positive": 49,
+            "hydrophilic_negative": 58,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0AAG2UV77|A0AAG2UV77_HUMAN",
+            "hydrophobic": 240,
+            "hydrophilic_neutral": 117,
+            "hydrophilic_positive": 54,
+            "hydrophilic_negative": 58,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0AAQ5BH13|A0AAQ5BH13_HUMAN",
+            "hydrophobic": 188,
+            "hydrophilic_neutral": 109,
+            "hydrophilic_positive": 72,
+            "hydrophilic_negative": 65,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A0AAQ5BI03|A0AAQ5BI03_HUMAN",
+            "hydrophobic": 258,
+            "hydrophilic_neutral": 137,
+            "hydrophilic_positive": 80,
+            "hydrophilic_negative": 83,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A0AVT1|UBA6_HUMAN",
+            "hydrophobic": 524,
+            "hydrophilic_neutral": 249,
+            "hydrophilic_positive": 143,
+            "hydrophilic_negative": 136,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A1KZ92|PXDNL_HUMAN",
+            "hydrophobic": 741,
+            "hydrophilic_neutral": 363,
+            "hydrophilic_positive": 203,
+            "hydrophilic_negative": 156,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A1L167|U2QL1_HUMAN",
+            "hydrophobic": 81,
+            "hydrophilic_neutral": 35,
+            "hydrophilic_positive": 24,
+            "hydrophilic_negative": 21,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A1L3X0|ELOV7_HUMAN",
+            "hydrophobic": 158,
+            "hydrophilic_neutral": 71,
+            "hydrophilic_positive": 36,
+            "hydrophilic_negative": 16,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A2RU49|HYKK_HUMAN",
+            "hydrophobic": 182,
+            "hydrophilic_neutral": 102,
+            "hydrophilic_positive": 49,
+            "hydrophilic_negative": 40,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A3KFJ0|A3KFJ0_HUMAN",
+            "hydrophobic": 159,
+            "hydrophilic_neutral": 91,
+            "hydrophilic_positive": 62,
+            "hydrophilic_negative": 35,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A3QNQ0|A3QNQ0_HUMAN",
+            "hydrophobic": 268,
+            "hydrophilic_neutral": 138,
+            "hydrophilic_positive": 81,
+            "hydrophilic_negative": 80,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A4D256|CC14C_HUMAN",
+            "hydrophobic": 218,
+            "hydrophilic_neutral": 110,
+            "hydrophilic_positive": 68,
+            "hydrophilic_negative": 51,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A5LHX3|PSB11_HUMAN",
+            "hydrophobic": 158,
+            "hydrophilic_neutral": 68,
+            "hydrophilic_positive": 40,
+            "hydrophilic_negative": 34,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A6H8L5|A6H8L5_HUMAN",
+            "hydrophobic": 260,
+            "hydrophilic_neutral": 133,
+            "hydrophilic_positive": 69,
+            "hydrophilic_negative": 37,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A6NDG6|PGP_HUMAN",
+            "hydrophobic": 194,
+            "hydrophilic_neutral": 55,
+            "hydrophilic_positive": 36,
+            "hydrophilic_negative": 36,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A6NGU5|GGT3_HUMAN",
+            "hydrophobic": 318,
+            "hydrophilic_neutral": 131,
+            "hydrophilic_positive": 65,
+            "hydrophilic_negative": 54,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A6NHL2|TBAL3_HUMAN",
+            "hydrophobic": 229,
+            "hydrophilic_neutral": 102,
+            "hydrophilic_positive": 59,
+            "hydrophilic_negative": 56,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A6NK58|LIPT2_HUMAN",
+            "hydrophobic": 139,
+            "hydrophilic_neutral": 35,
+            "hydrophilic_positive": 34,
+            "hydrophilic_negative": 23,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A6NNY8|UBP27_HUMAN",
+            "hydrophobic": 202,
+            "hydrophilic_neutral": 118,
+            "hydrophilic_positive": 69,
+            "hydrophilic_negative": 49,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A8K0B6|A8K0B6_HUMAN",
+            "hydrophobic": 211,
+            "hydrophilic_neutral": 95,
+            "hydrophilic_positive": 48,
+            "hydrophilic_negative": 41,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A8K1Z7|A8K1Z7_HUMAN",
+            "hydrophobic": 255,
+            "hydrophilic_neutral": 130,
+            "hydrophilic_positive": 74,
+            "hydrophilic_negative": 39,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A8K3M3|A8K3M3_HUMAN",
+            "hydrophobic": 205,
+            "hydrophilic_neutral": 98,
+            "hydrophilic_positive": 68,
+            "hydrophilic_negative": 64,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A8K460|A8K460_HUMAN",
+            "hydrophobic": 391,
+            "hydrophilic_neutral": 174,
+            "hydrophilic_positive": 105,
+            "hydrophilic_negative": 82,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A8K6K2|A8K6K2_HUMAN",
+            "hydrophobic": 255,
+            "hydrophilic_neutral": 140,
+            "hydrophilic_positive": 85,
+            "hydrophilic_negative": 81,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A8K6U0|A8K6U0_HUMAN",
+            "hydrophobic": 361,
+            "hydrophilic_neutral": 203,
+            "hydrophilic_positive": 133,
+            "hydrophilic_negative": 85,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|A8K7I4|CLCA1_HUMAN",
+            "hydrophobic": 452,
+            "hydrophilic_neutral": 267,
+            "hydrophilic_positive": 100,
+            "hydrophilic_negative": 95,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|A8K8W7|A8K8W7_HUMAN",
+            "hydrophobic": 557,
+            "hydrophilic_neutral": 276,
+            "hydrophilic_positive": 129,
+            "hydrophilic_negative": 114,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|B0YJ81|HACD1_HUMAN",
+            "hydrophobic": 166,
+            "hydrophilic_neutral": 66,
+            "hydrophilic_positive": 34,
+            "hydrophilic_negative": 22,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|B2R6Q2|B2R6Q2_HUMAN",
+            "hydrophobic": 266,
+            "hydrophilic_neutral": 128,
+            "hydrophilic_positive": 71,
+            "hydrophilic_negative": 59,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|B2RCJ5|B2RCJ5_HUMAN",
+            "hydrophobic": 395,
+            "hydrophilic_neutral": 217,
+            "hydrophilic_positive": 94,
+            "hydrophilic_negative": 99,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|B2RNB2|B2RNB2_HUMAN",
+            "hydrophobic": 374,
+            "hydrophilic_neutral": 206,
+            "hydrophilic_positive": 121,
+            "hydrophilic_negative": 123,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|B3KQM3|B3KQM3_HUMAN",
+            "hydrophobic": 252,
+            "hydrophilic_neutral": 144,
+            "hydrophilic_positive": 81,
+            "hydrophilic_negative": 63,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|B3KU52|B3KU52_HUMAN",
+            "hydrophobic": 353,
+            "hydrophilic_neutral": 149,
+            "hydrophilic_positive": 94,
+            "hydrophilic_negative": 71,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|B4DDT1|B4DDT1_HUMAN",
+            "hydrophobic": 218,
+            "hydrophilic_neutral": 120,
+            "hydrophilic_positive": 67,
+            "hydrophilic_negative": 33,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|B4DE91|B4DE91_HUMAN",
+            "hydrophobic": 275,
+            "hydrophilic_neutral": 101,
+            "hydrophilic_positive": 54,
+            "hydrophilic_negative": 54,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|B4DIT7|B4DIT7_HUMAN",
+            "hydrophobic": 304,
+            "hydrophilic_neutral": 135,
+            "hydrophilic_positive": 79,
+            "hydrophilic_negative": 88,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|B4DKH4|B4DKH4_HUMAN",
+            "hydrophobic": 250,
+            "hydrophilic_neutral": 119,
+            "hydrophilic_positive": 54,
+            "hydrophilic_negative": 52,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|B4DTN7|B4DTN7_HUMAN",
+            "hydrophobic": 323,
+            "hydrophilic_neutral": 145,
+            "hydrophilic_positive": 74,
+            "hydrophilic_negative": 85,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|B4DX14|B4DX14_HUMAN",
+            "hydrophobic": 293,
+            "hydrophilic_neutral": 104,
+            "hydrophilic_positive": 57,
+            "hydrophilic_negative": 54,
+            "not_standart": 0
+        },
+        {
+            "id": "sp|C9JRZ8|AK1BF_HUMAN",
+            "hydrophobic": 157,
+            "hydrophilic_neutral": 61,
+            "hydrophilic_positive": 52,
+            "hydrophilic_negative": 46,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|C9JYS6|C9JYS6_HUMAN",
+            "hydrophobic": 586,
+            "hydrophilic_neutral": 287,
+            "hydrophilic_positive": 150,
+            "hydrophilic_negative": 134,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|D2JYI1|D2JYI1_HUMAN",
+            "hydrophobic": 279,
+            "hydrophilic_neutral": 142,
+            "hydrophilic_positive": 86,
+            "hydrophilic_negative": 85,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|D6RAD4|D6RAD4_HUMAN",
+            "hydrophobic": 168,
+            "hydrophilic_neutral": 60,
+            "hydrophilic_positive": 45,
+            "hydrophilic_negative": 36,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|D9ZGF8|D9ZGF8_HUMAN",
+            "hydrophobic": 519,
+            "hydrophilic_neutral": 342,
+            "hydrophilic_positive": 246,
+            "hydrophilic_negative": 247,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|E7EUJ1|E7EUJ1_HUMAN",
+            "hydrophobic": 260,
+            "hydrophilic_neutral": 133,
+            "hydrophilic_positive": 69,
+            "hydrophilic_negative": 37,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|E7EUK6|E7EUK6_HUMAN",
+            "hydrophobic": 218,
+            "hydrophilic_neutral": 120,
+            "hydrophilic_positive": 67,
+            "hydrophilic_negative": 33,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|E7EWX6|E7EWX6_HUMAN",
+            "hydrophobic": 122,
+            "hydrophilic_neutral": 55,
+            "hydrophilic_positive": 31,
+            "hydrophilic_negative": 29,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|E9KL44|E9KL44_HUMAN",
+            "hydrophobic": 413,
+            "hydrophilic_neutral": 153,
+            "hydrophilic_positive": 113,
+            "hydrophilic_negative": 84,
+            "not_standart": 0
+        },
+        {
+            "id": "tr|F6KCZ3|F6KCZ3_HUMAN",
+            "hydrophobic": 172,
+            "hydrophilic_neutral": 103,
+            "hydrophilic_positive": 66,
+            "hydrophilic_negative": 62,
+            "not_standart": 0
+        }
+    ]
+}
