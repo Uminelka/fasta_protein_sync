@@ -1,101 +1,66 @@
 import time
 import json
-import threading
 import multiprocessing
 from collections import Counter
 from Bio import SeqIO
+from functools import partial
 
-def mp_worker(task_queue, result_queue, properties):
-    while True:
-        item = task_queue.get()
-        if item is None:
-            result_queue.put(None)
-            break
-            
-        seq_id, seq_str = item
-        counts = Counter(seq_str)
-        
-        current_seq_results = {
-            'id': seq_id,
-            'hydrophobic': 0,
-            'hydrophilic_neutral': 0,
-            'hydrophilic_positive': 0,
-            'hydrophilic_negative': 0,
-            'not_standart': 0
-        }
-        
-        for amk, count in counts.items():
-            defined = False
-            for class_amk, set_amk in properties.items():
-                if amk in set_amk:
-                    current_seq_results[class_amk] += count
-                    defined = True
-                    break
-            if not defined:
-                current_seq_results['not_standart'] += count
-                
-        result_queue.put(current_seq_results)
+ 
+def pool_worker(seq_data, properties):
+    seq_id, seq_str = seq_data
+    counts = Counter(seq_str)
+    
+    current_seq_results = {
+        'id': seq_id,
+        'hydrophobic': 0, 'hydrophilic_neutral': 0,
+        'hydrophilic_positive': 0, 'hydrophilic_negative': 0,
+        'not_standart': 0
+    }
+    
+    for amk, count in counts.items():
+        defined = False
+        for class_amk, set_amk in properties.items():
+            if amk in set_amk:
+                current_seq_results[class_amk] += count
+                defined = True
+                break
+        if not defined:
+            current_seq_results['not_standart'] += count
+    return current_seq_results
 
-
-class ProteinAnalyzerMultiprocess:
+class ProteinAnalyzerPool:
     def __init__(self, file):
         self.file = file
-        self.num_processes = multiprocessing.cpu_count()
-        
+        self.num_processes = 12
         self.properties = {
             'hydrophobic': set('AVILMFWCPG'),
             'hydrophilic_neutral': set('STNQY'),
             'hydrophilic_positive': set('KRH'),
             'hydrophilic_negative': set('DE'),
         }
-        
-        self.results = {
-            'hydrophobic': 0,
-            'hydrophilic_neutral': 0,
-            'hydrophilic_positive': 0,
-            'hydrophilic_negative': 0,
-            'not_standart': 0
-        }
+        self.results = {key: 0 for key in list(self.properties.keys()) + ['not_standart']}
         self.sequences_data = []
         self.full_time = 0
 
     def analyze(self):
         start_time = time.time()
-        
-        task_queue = multiprocessing.Queue(maxsize=2000)
-        result_queue = multiprocessing.Queue()
-        
-        processes = []
-        for _ in range(self.num_processes):
-            p = multiprocessing.Process(
-                target=mp_worker, 
-                args=(task_queue, result_queue, self.properties)
-            )
-            p.start()
-            processes.append(p)
-            
-        def producer():
+
+         
+        def sequence_generator():
             with open(self.file) as f:
                 for sequence in SeqIO.parse(f, 'fasta'):
-                    seq_str = str(sequence.seq).upper()
-                    task_queue.put((sequence.id, seq_str))
-            for _ in range(self.num_processes):
-                task_queue.put(None)
+                    yield (sequence.id, str(sequence.seq).upper())
 
-        threading.Thread(target=producer).start()
-
-        finished_processes = 0
-        while finished_processes < self.num_processes:
-            res = result_queue.get()
-            if res is None:
-                finished_processes += 1
-            else:
+         
+        with multiprocessing.Pool(processes=self.num_processes) as pool:
+             
+            worker_func = partial(pool_worker, properties=self.properties)
+            
+            
+            for res in pool.imap_unordered(worker_func, sequence_generator(), chunksize=50):
                 self.sequences_data.append(res)
-                for key in self.results.keys():
+                for key in self.results:
                     self.results[key] += res[key]
-
-        for p in processes:
-            p.join()
 
         self.full_time = time.time() - start_time
 
@@ -108,10 +73,8 @@ class ProteinAnalyzerMultiprocess:
         with open(out_file, 'w', encoding='utf-8') as f:
             json.dump(out_data, f, indent=4)
 
-
-if __name__ == '__main__':
-    test_file = 'example_1000.fasta'
-    
-    analyzer_mp = ProteinAnalyzerMultiprocess(test_file)
-    analyzer_mp.analyze()
-    analyzer_mp.save_result('multiprocess_result.json')
+if __name__ == "__main__":
+    test_file = "example_100000.fasta"
+    analyzer = ProteinAnalyzerPool(test_file)
+    analyzer.analyze()
+    analyzer.save_result("pool_result.json")
